@@ -6,23 +6,29 @@ import Affiliate from './Affiliate';
 import Audit from './Audit';
 import PresalePrice from './PreSalePrice';
 import ListingTable from './ListingsTable';
+import CountdownTimer from './Timer';
 function App() {
+  const targetDate = new Date('2024-12-31T23:59:59');
   return (
-    <div class="md:flex md:flex-wrap h-full">
-      <div class="w-full md:w-1/3 p-4 flex">
+    <div className='mt-[20px]'>
+      <Navbar />
+    <div class="flex sm:flex-wrap h-full mt-[22px]">
+
+      <div class="w-full md:w-1/3 p-4 flex items-end justify-end">
         <div>
           <Totalsupply />
           <Affiliate />
           <Audit />
         </div>
       </div>
-      <div class="w-full md:w-1/3 p-4">
+      <div class="w-full md:w-1/4 p-4">
         <PresalePrice />
         <ListingTable />
       </div>
       <div class="w-full md:w-1/3 p-4 flex">
-        <div class="bg-gray-300 flex-grow">Column 3</div>
+        <CountdownTimer targetDate={targetDate}/>
       </div>
+    </div>
     </div>
   );
 }
