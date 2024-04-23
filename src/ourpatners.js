@@ -7,7 +7,7 @@ const Patner = () => {
             <div className="h-1/3 flex justify-between">
                 <div className="flex">
                     <img  src={handShakeImg}></img>
-                    <a className="ml-2">Our Patners</a>
+                    <a className="ml-2 font-[InterRegular]">Our Patners</a>
                 </div>
                 <div>
                     <img src={levelImg}></img>

@@ -11,11 +11,11 @@ const Navbar = () => {
             <div className="flex">
                 <button className="bg-[#F6F6F6] hover:bg-green-600 text-black font-bold py-2 px-4 w-[178px] y-[48px] mr-[80px] rounded-[12px] flex items-center justify-center">
                     <img className="mr-2" src={arrowImg} />
-                    Back to Home
+                    <a className="font-[InterRegular]">Back to Home</a>
                 </button>
                 <button className="bg-[#232323] hover:bg-green-600 text-white font-bold py-2 px-4 rounded-[12px] w-[288px] h-[48px] flex items-center justify-center">
                     <img className="mr-[5px] w-[24px] h-[24px]" src={elecrtricImg}></img>
-                    0x09750ad...360fdb7
+                    <a className="font-[InterRegular]">0x09750ad...360fdb7</a>
                     <img className="ml-1" src={arrowimgimg}></img>
                 </button>
             </div>

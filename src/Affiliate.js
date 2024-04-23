@@ -10,7 +10,7 @@ const Affiliate = () => {
                 <div className="flex justify-between">
                     <div className="flex justify-between">
                         <img className="w-[30px] h-[30px] mr-[10px]" src={usericon}></img>
-                        <a className="font-bold text-[16px] items-center">Affiliate</a>
+                        <a className="font-bold text-[18px] items-center font-[InterRegular] ">Affiliate</a>
                     </div>
                 </div>
                 <div>
@@ -19,8 +19,8 @@ const Affiliate = () => {
             </div>
             <div className="h-1/4">
                 <a className="flex">
-                    <span className="text-black">Earn 10% Commission
-                        <span className="text-[#BBBBBB]"> on Contributions from Your Friends and Partners.</span>
+                    <span className="text-black font-[InterRegular] font-semibold">Earn 10% Commission
+                        <span className="text-[#BBBBBB] font-[InterRegular]"> on Contributions from Your Friends and Partners.</span>
                     </span>
                 </a>
 
@@ -28,16 +28,16 @@ const Affiliate = () => {
             <div className="justify-between flex h-1/4 border-t border-[#F4F4F4] mt-3 items-center">
                 <div className="flex">
                     <img className="w-[25px] h-[28px]" src={snackdollars}></img>
-                    <a className="font-bold ml-2">Current Reward</a>
+                    <a className="font-bold ml-2  font-[InterRegular]">Current Reward</a>
                 </div>
-                <div className="text-[#5ED6A4]">
+                <div className="text-[#5ED6A4]  font-[InterRegular]">
                     10.687 SOL
                 </div>
             </div>
             <div class="flex justify-end items-center relative">
                 <input
                     placeholder="volt.com/seed/af-2352"
-                    class="border border-gray-400 p-4 w-[288px] h-[40px] rounded-[13px] border-opacity-20"
+                    class="border border-gray-400 p-4 w-[288px] h-[40px] rounded-[13px] border-opacity-20  font-[InterRegular]"
                 />
                 <img src={copyicon} class="absolute mr-2 w-[75px] h-[20px]" alt="Search Icon" />
             </div>
