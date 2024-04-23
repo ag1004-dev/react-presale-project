@@ -1,6 +1,6 @@
 const PresalePrice = () => {
     return (
-        <div className="container relative w-[452px] h-[132px] rounded-[20px] border-[2px] border-[#F4F4F4]">
+        <div className="container relative w-full md:w-[452px] h-[132px] rounded-[20px] border-[1px] border-[#F4F4F4]">
             <div className="absolute top-0 left-0 w-1/3 h-1/2 rounded-tl-[20px] mt-[15px] pl-[20px] border-r-2 border-[#F4F4F4]">
                 <a className="text-[#ADADAD] text-[12px]">Pre-Sale Price</a>
                 <p className="text-[16px]">$0.30</p>
