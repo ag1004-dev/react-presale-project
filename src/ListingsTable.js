@@ -3,9 +3,9 @@ import approvdeImg from "./components/Image/approvedicon.svg"
 import pendingimg from "./components/Image/pendingicon.svg"
 const ListingTable = () => {
     return (
-        <div className="p-[20px] border-[1px] lg:w-[440px] md:w-[440px] w-full rounded-[20px] mt-4 overflow-y-scroll max-h-96 h-fit">
-            
-            <a className="absolute text-[20px] font-bold  font-[InterRegular] bg-white w-[400px] rounded-tr-[20px] mt-[-20px] h-[33px] mr-[20px]">Listing</a>
+        <div className="lg:w-[440px] md:w-[440px] w-full rounded-[20px] mt-4 h-[403px] border-[1px]">
+        <div className="p-[20px] lg:w-[430px] md:w-[440px] w-full rounded-[20px] mt-4 overflow-y-scroll h-[383px]">   
+            <a className="absolute text-[20px] font-bold  font-[InterRegular] bg-white w-[400px] mt-[-20px] h-[33px] mr-[20px]">Listing</a>
             <div className="pt-2 mt-[8px] flex justify-between pb-[8px] border-b border-[#EFEFEF]">
                 <div className="flex">
                     <a className=" font-[InterRegular]">CoinMarketCap</a>
@@ -346,6 +346,7 @@ const ListingTable = () => {
                     <a className="text-[14px] ml-[6px] text-[#AAAAAA] font-[InterRegular]">06:00 UTC</a>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
