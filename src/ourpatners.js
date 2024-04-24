@@ -3,7 +3,7 @@ import handShakeImg from "./components/Image/handshake 1.svg"
 
 const Patner = () => {
     return (
-        <div className="max-w-[1350px] mx-auto p-[50px] pt-0 pb-0 mt-[35px]">
+        <div className="lg:max-w-[1350px] max-w-none mx-auto p-[50px] pt-0 pb-0 mt-[35px] lg:block md:block hidden">
             <div className="rounded-[15px] bg-white w-full h-[119px] border-[#F4F4F4] border-[1px] p-3">
                 <div className="h-1/3 flex justify-between">
                     <div className="flex">

@@ -2,7 +2,7 @@ import auditImg from "./components/Image/audit.svg"
 import auditbuttonImg from "./components/Image/auditbutimg.svg"
 const Audit = () => {
     return (
-        <div className="rounded-[15px] bg-white w-[328px] h-[172px] border-[#F4F4F4] border-[1px] p-[20px] mt-[15px]">
+        <div className="rounded-[15px] bg-white w-full h-[172px] border-[#F4F4F4] border-[1px] p-[20px] mt-[15px]">
             <div className="h-1/3 flex justify-between items-">
                 <div className="flex justify-between">
                     <div className="flex justify-between">

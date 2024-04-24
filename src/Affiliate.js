@@ -5,7 +5,7 @@ import snackdollars from "./components/Image/sack-dollar.svg"
 import copyicon from "./components/Image/copyIcon.svg"
 const Affiliate = () => {
     return (
-        <div className="rounded-[15px] bg-white w-[328px] h-[227px] border-[#F4F4F4] border-[1px] p-[20px] mt-[15px]">
+        <div className="rounded-[15px] bg-white w-full h-[227px] border-[#F4F4F4] border-[1px] p-[20px] mt-[15px]">
             <div className="h-1/4 flex justify-between">
                 <div className="flex justify-between">
                     <div className="flex justify-between">

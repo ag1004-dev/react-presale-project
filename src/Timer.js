@@ -31,11 +31,11 @@ function CountdownTimer({ targetDate }) {
     });
 
     return (
-        <div className='w-[440px] h-[353px] border-[1px] border-[#EFEFEF] p-[16px] rounded-[20px] presale_cont'>
+        <div className='w-full h-[353px] border-[1px] border-[#EFEFEF] p-[16px] rounded-[20px]'>
             <div className='items-center flex h-1/4 justify-between border-b-[2px]'>
                 <div className='flex'>
                     <div><a className='text-[18px] font-bold mr-[10px]  font-[InterRegular]'>Pre-Sale Start</a></div>
-                    <div><img src={soonImg} /></div>
+                    <div className='lg:block md:block hidden'><img src={soonImg} /></div>
                 </div>
                 <div className="text-center">
                     <div className="flex justify-center items-center space-x-4">
@@ -62,40 +62,40 @@ function CountdownTimer({ targetDate }) {
             </div>
             <div className='h-1/5 mt-[16px] border-b-[1px]'>
                 <div className=' flex justify-between'>
-                <div>
-                    <a className='text-[#A0A0A0] mr-[10px] font-[InterRegular]'>Amount Funded</a>
-                    <span className=' font-[InterRegular]'>0 SOL</span>
-                </div>
-                <div className='flex'>
-                    <div className='items-center mr-1'>
-                    <a className='text-[#A0A0A0]'>0</a>
+                    <div>
+                        <a className='text-[#A0A0A0] mr-[10px] font-[InterRegular]'>Amount Funded</a>
+                        <span className=' font-[InterRegular]'>0 SOL</span>
                     </div>
-                    <div><img className='w-[18px] h-[25px]' src={usericon} /></div>
+                    <div className='flex'>
+                        <div className='items-center mr-1'>
+                            <a className='text-[#A0A0A0]'>0</a>
+                        </div>
+                        <div><img className='w-[18px] h-[25px] lg:block md:block hidden' src={usericon} /></div>
+                    </div>
                 </div>
-                </div>
-                <div className='w-[400px] h-[13px] bg-[#F7F7F7] mt-[10px] rounded-[10px]' />
+                <div className='w-full h-[13px] bg-[#F7F7F7] mt-[10px] rounded-[10px]' />
             </div>
             <div className='h-1/4 mt-[16px]'>
                 <div className=' flex justify-between'>
-                <div>
-                    <a className='text-[#A0A0A0] mr-[10px] text-[12px] font-[InterRegular]'>Available Balance:</a>
-                </div>
-                <div className='flex'>
-                    <div className='items-center mr-1'>
-                    <a className='text-[#A0A0A0] text-[12px] font-[InterRegular]'>5.434523 SOL</a>
+                    <div>
+                        <a className='text-[#A0A0A0] mr-[10px] text-[12px] font-[InterRegular]'>Available Balance:</a>
+                    </div>
+                    <div className='flex'>
+                        <div className='items-center mr-1'>
+                            <a className='text-[#A0A0A0] text-[12px] font-[InterRegular]'>5.434523 SOL</a>
+                        </div>
                     </div>
                 </div>
+                <div className="flex items-center relative">
+                    <input
+                        placeholder="0.1"
+                        className="border border-gray-400 p-4 w-full h-[40px] rounded-[13px] border-opacity-20"
+                    />
+                    <img src={solmaximg} className="absolute right-0 pr-2 h-[25px]" alt="Search Icon" />
                 </div>
-                <div class="flex items-center relative">
-                <input
-                    placeholder="0.1"
-                    class="border border-gray-400 p-4 w-[400px] h-[40px] rounded-[13px] border-opacity-20"
-                />
-                <img src={solmaximg} class="absolute items-end ml-[100px] w-[800px] h-[25px]" alt="Search Icon" />
-            </div>
             </div>
             <div className='h-1/4'>
-                <button className='flex w-[400px] h-[48px] items-center justify-center bg-[#393939]  rounded-[12px]'>
+                <button className='flex w-full h-[48px] items-center justify-center bg-[#393939]  rounded-[12px]'>
                     <a className='text-white mr-2 font-[InterRegular] text-[16px]'>Connect Wallet</a>
                     <img src={walletbtnImg}></img>
                 </button>

@@ -3,7 +3,7 @@ import approvdeImg from "./components/Image/approvedicon.svg"
 import pendingimg from "./components/Image/pendingicon.svg"
 const ListingTable = () => {
     return (
-        <div className="p-[20px] border-[1px] w-[430px] h-[418px] rounded-[20px] mt-4 border-">
+        <div className="p-[20px] border-[1px] lg:w-[440px] md:w-[440px] w-full h-[418px] rounded-[20px] mt-4 border-">
             <a className="text-[20px] font-bold  font-[InterRegular]">Listing</a>
             <div className="pt-2 mt-[8px] flex justify-between pb-[8px] border-b border-[#EFEFEF]">
                 <div className="flex">
