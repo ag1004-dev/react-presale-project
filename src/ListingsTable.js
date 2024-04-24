@@ -4,7 +4,7 @@ import pendingimg from "./components/Image/pendingicon.svg"
 const ListingTable = () => {
     return (
         <div className="p-[20px] border-[1px] lg:w-[440px] md:w-[440px] w-full h-[418px] rounded-[20px] mt-4 overflow-auto scrollbar-thin">
-            <a className="text-[20px] font-bold  font-[InterRegular]">Listing</a>
+            <a className="absolute text-[20px] font-bold  font-[InterRegular] bg-white w-[400px] mt-[-20px] h-[30px] mr-[20px]">Listing</a>
             <div className="pt-2 mt-[8px] flex justify-between pb-[8px] border-b border-[#EFEFEF]">
                 <div className="flex">
                     <a className=" font-[InterRegular]">CoinMarketCap</a>

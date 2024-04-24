@@ -32,18 +32,18 @@ const Affiliate = () => {
             </div>
             <div className="h-1/4">
                 <a className="flex">
-                    <span className="text-black font-[InterRegular] font-semibold">Earn 10% Commission
-                        <span className="text-[#BBBBBB] font-[InterRegular]"> on Contributions from Your Friends and Partners.</span>
+                    <span className="text-black font-[InterRegular] font-semibold text-[14px]">Earn 10% Commission
+                        <span className="text-[#BBBBBB] font-[InterRegular] text-[14px]"> on Contributions from Your Friends and Partners.</span>
                     </span>
                 </a>
 
             </div>
             <div className="justify-between flex h-1/4 border-t border-[#F4F4F4] mt-3 items-center">
                 <div className="flex">
-                    <img className="w-[25px] h-[28px]" src={snackdollars}></img>
-                    <a className="font-bold ml-2  font-[InterRegular]">Current Reward</a>
+                    <img className="w-[18px] h-[18px]" src={snackdollars}></img>
+                    <a className="font-bold ml-2 text-[14px]  font-[InterRegular]">Current Reward</a>
                 </div>
-                <div className="text-[#5ED6A4]  font-[InterRegular]">
+                <div className="text-[#5ED6A4] text-[14px]  font-[InterRegular]">
                     10.687 SOL
                 </div>
             </div>

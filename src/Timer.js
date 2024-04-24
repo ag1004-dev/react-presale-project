@@ -41,21 +41,21 @@ function CountdownTimer({ targetDate }) {
                     <div className="flex justify-center items-center space-x-4">
                         {timeLeft.days > 0 && (
                             <div className="flex flex-col items-center">
-                                <div className="text-[20px] font-bold text-black bg-white border-[2px] rounded-lg w-[40px] h-[40px] flex justify-center items-center font-[InterRegular]">{timeLeft.days}</div>
-                                <div className="text-sm text-[#A0A0A0]  font-[InterRegular]">Days</div>
+                                <div className="text-[20px]  text-black bg-white border-[2px] rounded-lg w-[40px] h-[40px] flex justify-center items-center font-[InterRegular]">{timeLeft.days}</div>
+                                <div className=" text-[#A0A0A0] text-[12px] font-[InterRegular]">Days</div>
                             </div>
                         )}
                         <div className="flex flex-col items-center">
-                            <div className="text-[20px] font-bold text-black bg-white rounded-lg border-[2px] w-[40px] h-[40px] flex justify-center items-center font-[InterRegular]">{timeLeft.hours}</div>
-                            <div className="text-sm text-[#A0A0A0]  font-[InterRegular]">Hours</div>
+                            <div className="text-[20px] text-black bg-white rounded-lg border-[2px] w-[40px] h-[40px] flex justify-center items-center font-[InterRegular]">{timeLeft.hours}</div>
+                            <div className=" text-[#A0A0A0] text-[12px]  font-[InterRegular]">Hours</div>
                         </div>
                         <div className="flex flex-col items-center">
-                            <div className="text-[20px] font-bold text-black bg-white rounded-lg border-[2px] w-[40px] h-[40px] flex justify-center items-center font-[InterRegular]">{timeLeft.minutes}</div>
-                            <div className="text-sm text-[#A0A0A0] font-[InterRegular]">Min</div>
+                            <div className="text-[20px] text-black bg-white rounded-lg border-[2px] w-[40px] h-[40px] flex justify-center items-center font-[InterRegular]">{timeLeft.minutes}</div>
+                            <div className="text-[#A0A0A0] text-[12px] font-[InterRegular]">Min</div>
                         </div>
                         <div className="flex flex-col items-center">
-                            <div className="text-[20px] font-bold text-black bg-white rounded-lg border-[2px] w-[40px] h-[40px] flex justify-center items-center font-[InterRegular]">{timeLeft.seconds}</div>
-                            <div className="text-sm text-[#A0A0A0] font-[InterRegular]">Sec</div>
+                            <div className="text-[20px] text-black bg-white rounded-lg border-[2px] w-[40px] h-[40px] flex justify-center items-center font-[InterRegular]">{timeLeft.seconds}</div>
+                            <div className="text-[#A0A0A0] text-[12px] font-[InterRegular]">Sec</div>
                         </div>
                     </div>
                 </div>
@@ -63,14 +63,14 @@ function CountdownTimer({ targetDate }) {
             <div className='h-1/5 mt-[16px] border-b-[1px]'>
                 <div className=' flex justify-between'>
                     <div>
-                        <a className='text-[#A0A0A0] mr-[10px] font-[InterRegular]'>Amount Funded</a>
-                        <span className=' font-[InterRegular]'>0 SOL</span>
+                        <a className='text-[#A0A0A0] mr-[10px] text-[14px] font-[InterRegular]'>Amount Funded</a>
+                        <span className=' font-[InterRegular] text-[14px]'>0 SOL</span>
                     </div>
                     <div className='flex'>
                         <div className='items-center mr-1'>
-                            <a className='text-[#A0A0A0]'>0</a>
+                            <a className='text-[#A0A0A0] text-[14px] mt-[3px]'>0</a>
                         </div>
-                        <div><img className='w-[18px] h-[25px] lg:block md:block hidden' src={usericon} /></div>
+                        <div><img className='w-[18px] h-[18px] mt-[3px] lg:block md:block hidden' src={usericon} /></div>
                     </div>
                 </div>
                 <div className='w-full h-[13px] bg-[#F7F7F7] mt-[10px] rounded-[10px]' />

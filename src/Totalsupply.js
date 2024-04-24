@@ -1,5 +1,6 @@
 import voltcoin from "./components/Image/voltcoin.svg"
 import walletbuttonImg from "./components/Image/walletbuton.svg"
+import voltcoinImg from "./components/Image/voltvolt.svg"
 const Totalsupply = () => {
     return (
         <div className="rounded-[15px] bg-white w-full h-[137px] border-[#F4F4F4] border-[1px] p-[20px]">
@@ -10,12 +11,12 @@ const Totalsupply = () => {
                         <a className="font-bold text-[20px] font-[InterRegular]">Volt</a>
                     </div>
                     <div className="rounded-[15px] w-[51px] h-[19px] bg-[#F1F1F1] ml-[15px] mt-[5px]">
-                        <a className="text-[14px] items-center justify-center opacity-50 ml-[5px] mt-[-5px]">$VOLT</a>
+                        <img src={voltcoinImg} />
                     </div>
                 </div>
                 <div>
                     <button className="flex border-[#F4F4F4] border-[2px] rounded-[12px] w-[102px] h-[36px] items-center justify-center shadow-sm">
-                        <a className="mr-[6px] font-[InterRegular]">Add to</a>
+                        <a className="mr-[6px] text-[16px] font-[InterRegular] text-[#D4D4D4]">Add to</a>
                         <img src={walletbuttonImg} />
                     </button>
                 </div>
