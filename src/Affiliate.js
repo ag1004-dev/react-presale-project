@@ -10,8 +10,8 @@ const Affiliate = () => {
             <div className="h-1/4 flex justify-between">
                 <div className="flex justify-between">
                     <div className="flex justify-between">
-                        <img className="w-[30px] h-[30px] mr-[10px]" src={usericon}></img>
-                        <a className="font-bold text-[18px] items-center font-[InterRegular] ">Affiliate</a>
+                        <img className="w-[26px] h-[26px] mr-[10px]" src={usericon}></img>
+                        <a className=" text-[18px] items-center font-[InterRegular] font-semibold ">Affiliate</a>
                     </div>
                 </div>
                 <div>
@@ -32,7 +32,7 @@ const Affiliate = () => {
             </div>
             <div className="h-1/4">
                 <a className="flex">
-                    <span className="text-black font-[InterRegular] font-semibold text-[14px]">Earn 10% Commission
+                    <span className="text-black font-[InterRegular] text-[14px]">Earn 10% Commission
                         <span className="text-[#BBBBBB] font-[InterRegular] text-[14px]"> on Contributions from Your Friends and Partners.</span>
                     </span>
                 </a>
