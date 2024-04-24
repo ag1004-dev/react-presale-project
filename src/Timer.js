@@ -31,7 +31,7 @@ function CountdownTimer({ targetDate }) {
     });
 
     return (
-        <div className='w-[440px] h-[353px] border-[1px] border-[#EFEFEF] p-[16px] rounded-[20px]'>
+        <div className='w-[440px] h-[353px] border-[1px] border-[#EFEFEF] p-[16px] rounded-[20px] presale_cont'>
             <div className='items-center flex h-1/4 justify-between border-b-[2px]'>
                 <div className='flex'>
                     <div><a className='text-[18px] font-bold mr-[10px]  font-[InterRegular]'>Pre-Sale Start</a></div>

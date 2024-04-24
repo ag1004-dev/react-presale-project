@@ -2,7 +2,7 @@ import voltcoin from "./components/Image/voltcoin.svg"
 import walletbuttonImg from "./components/Image/walletbuton.svg"
 const Totalsupply = () => {
     return (
-        <div className="rounded-[15px] bg-white w-[328px] h-[137px] border-[#F4F4F4] border-[1px] p-[20px] mt-[-200px]">
+        <div className="rounded-[15px] bg-white w-[328px] h-[137px] border-[#F4F4F4] border-[1px] p-[20px]">
             <div className="h-1/2 flex justify-between">
                 <div className="flex justify-between">
                     <div className="flex justify-between">
