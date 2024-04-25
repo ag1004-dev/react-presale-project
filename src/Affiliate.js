@@ -6,7 +6,7 @@ import copyicon from "./components/Image/copyIcon.svg"
 const Affiliate = () => {
     const [isTooltipVisible, setIsTooltipVisible] = useState(false);
     return (
-        <div className="rounded-[15px] bg-white w-full h-[227px] border-[#F4F4F4] border-[1px] p-[20px] mt-[15px]">
+        <div className="rounded-[15px] bg-white lg:w-[100%] md:w-[95%] lg:ml-0  md:ml-[20px] h-[227px] border-[#F4F4F4] border-[1px] p-[20px] mt-[15px]">
             <div className="h-1/4 flex justify-between">
                 <div className="flex justify-between">
                     <div className="flex justify-between">
